@@ -1,0 +1,26 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+.vite
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Scratch / extract scripts (not part of the project)
+*.txt
+__pycache__
+*.pyc
+extract_pdf.py
+extract_certs.py
+prepare_assets.py

@@ -1,0 +1,101 @@
+/**
+ * Skills — sourced from Sujay Velapure's resume (tech skills, libraries,
+ * tools & platforms, and professional skills).
+ * No proficiency percentages — chips + grouped cards only.
+ */
+export const skills = {
+  eyebrow: "Skills",
+  title: "My technical toolbox",
+  subtitle:
+    "A blend of programming, data analytics, AI/ML and developer tooling — organized by how I use them.",
+  categories: [
+    {
+      id: "programming",
+      icon: "Code2",
+      title: "Programming",
+      description: "Languages I build software and scripts with.",
+      color: "primary",
+      chips: ["Python", "Java", "SQL", "JavaScript", "HTML", "CSS"],
+    },
+    {
+      id: "frontend",
+      icon: "LayoutPanelTop",
+      title: "Frontend",
+      description: "Interactive, data-driven user interfaces.",
+      color: "secondary",
+      chips: ["React.js", "JavaScript", "HTML", "CSS"],
+    },
+    {
+      id: "backend",
+      icon: "Server",
+      title: "Backend",
+      description: "APIs, services and database-backed workflows.",
+      color: "primary",
+      chips: ["FastAPI", "REST APIs", "MongoDB", "PostgreSQL"],
+    },
+    {
+      id: "databases",
+      icon: "Database",
+      title: "Databases",
+      description: "Querying, transforming and modeling data.",
+      color: "secondary",
+      chips: ["SQL", "MySQL", "MongoDB", "PostgreSQL"],
+    },
+    {
+      id: "ai-ml",
+      icon: "Brain",
+      title: "AI & Machine Learning",
+      description: "Building intelligent, data-driven models and features.",
+      color: "accent",
+      chips: ["Machine Learning", "Scikit-learn", "Computer Vision", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    },
+    {
+      id: "data-analytics",
+      icon: "BarChart3",
+      title: "Data Analytics",
+      description: "From raw data to business-ready insight.",
+      color: "secondary",
+      chips: ["Excel", "Power BI", "Tableau", "EDA", "KPI Reporting", "Data Cleaning", "Pivot Tables"],
+    },
+    {
+      id: "cloud",
+      icon: "Cloud",
+      title: "Cloud",
+      description: "Foundations in cloud infrastructure & AI platforms.",
+      color: "primary",
+      chips: ["AWS (Basics)", "Oracle Cloud Infrastructure"],
+    },
+    {
+      id: "tools",
+      icon: "Wrench",
+      title: "Developer Tools",
+      description: "Tools I use daily across the data lifecycle.",
+      color: "accent",
+      chips: ["Git", "GitHub", "Excel", "Power BI", "Celonis", "PQL", "Jupyter", "VS Code"],
+    },
+    {
+      id: "version-control",
+      icon: "GitBranch",
+      title: "Version Control",
+      description: "Clean, traceable project history.",
+      color: "secondary",
+      chips: ["Git", "GitHub"],
+    },
+    {
+      id: "soft-skills",
+      icon: "Users",
+      title: "Soft Skills",
+      description: "How I work with people, problems and deadlines.",
+      color: "primary",
+      chips: [
+        "Problem Solving",
+        "Analytical Thinking",
+        "Time Management",
+        "Teamwork",
+        "Verbal & Written Communication",
+        "Quick Learner",
+        "Quality Focus",
+      ],
+    },
+  ],
+};

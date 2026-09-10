@@ -1,0 +1,138 @@
+/**
+ * Central icon mapper — turn data-driven string names into real
+ * Lucide icon components (kept explicit for tree-shaking).
+ */
+import {
+  Activity,
+  ArrowRight,
+  ArrowUp,
+  Award,
+  BadgeCheck,
+  BarChart3,
+  BookOpen,
+  Bot,
+  Brain,
+  BrainCircuit,
+  BriefcaseBusiness,
+  CalendarClock,
+  ChartColumn,
+  Check,
+  ChevronLeft,
+  ChevronRight,
+  Cloud,
+  Code2,
+  Copy,
+  Cpu,
+  Database,
+  Download,
+  ExternalLink,
+  Eye,
+  FileDown,
+  FolderKanban,
+  Github,
+  GitBranch,
+  GraduationCap,
+  LayoutPanelTop,
+  Lightbulb,
+  LineChart,
+  Linkedin,
+  Mail,
+  MapPin,
+  Menu,
+  MessageCircle,
+  Moon,
+  Phone,
+  PieChart,
+  Quote,
+  Rocket,
+  Send,
+  Server,
+  Sparkles,
+  Star,
+  Sun,
+  Target,
+  Terminal,
+  Trophy,
+  Users,
+  Workflow,
+  Wrench,
+  X,
+  ZoomIn,
+  ZoomOut,
+} from "lucide-react";
+
+export const ICONS = {
+  Activity,
+  ArrowRight,
+  ArrowUp,
+  Award,
+  BadgeCheck,
+  BarChart3,
+  BookOpen,
+  Bot,
+  Brain,
+  BrainCircuit,
+  BriefcaseBusiness,
+  CalendarClock,
+  ChartColumn,
+  Check,
+  ChevronLeft,
+  ChevronRight,
+  Cloud,
+  Code2,
+  Copy,
+  Cpu,
+  Database,
+  Download,
+  ExternalLink,
+  Eye,
+  FileDown,
+  FolderKanban,
+  Github,
+  GitBranch,
+  GraduationCap,
+  LayoutPanelTop,
+  Lightbulb,
+  LineChart,
+  Linkedin,
+  Mail,
+  MapPin,
+  Menu,
+  MessageCircle,
+  Moon,
+  Phone,
+  PieChart,
+  Quote,
+  Rocket,
+  Send,
+  Server,
+  Sparkles,
+  Star,
+  Sun,
+  Target,
+  Terminal,
+  Trophy,
+  Users,
+  Workflow,
+  Wrench,
+  X,
+  ZoomIn,
+  ZoomOut,
+};
+
+/**
+ * Render a Lucide icon from a data string. Falls back to a Sparkles
+ * glyph when a name is unknown so the UI never breaks on bad data.
+ */
+export function Icon({ name, size = 20, className = "", strokeWidth = 2, ...rest }) {
+  const Component = ICONS[name] || Sparkles;
+  return (
+    <Component
+      size={size}
+      strokeWidth={strokeWidth}
+      className={className}
+      aria-hidden="true"
+      {...rest}
+    />
+  );
+}

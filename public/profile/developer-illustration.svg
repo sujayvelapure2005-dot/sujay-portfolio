@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" width="800" height="680" role="img" aria-label="Illustration of a developer working with data, AI and code — Sujay Velapure">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/><stop offset="0.55" stop-color="#151d33"/><stop offset="1" stop-color="#1c1a3d"/>
+    </linearGradient>
+    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/><stop offset="0.5" stop-color="#14b8a6"/><stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.9"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="800" height="680" rx="44" fill="url(#bg)"/>
+  <rect width="800" height="680" rx="44" fill="#a78bfa" opacity="0.07"/>
+
+  <g stroke="#233052" stroke-opacity="0.22" stroke-width="1">
+    <path d="M0 80H800 M0 160H800 M0 240H800 M0 320H800 M0 400H800 M0 480H800 M0 560H800 M0 640H800"/>
+    <path d="M80 0V680 M160 0V680 M240 0V680 M320 0V680 M400 0V680 M480 0V680 M560 0V680 M640 0V680 M720 0V680"/>
+  </g>
+
+  <ellipse cx="130" cy="150" rx="150" ry="110" fill="#8b5cf6" opacity="0.15" filter="url(#soft)"/>
+  <ellipse cx="680" cy="560" rx="170" ry="120" fill="#14b8a6" opacity="0.13" filter="url(#soft)"/>
+  <ellipse cx="660" cy="120" rx="90" ry="70" fill="#f59e0b" opacity="0.1" filter="url(#soft)"/>
+
+  <!-- IDE window -->
+  <g transform="translate(150 130)">
+    <rect width="500" height="400" rx="18" fill="#101828" stroke="#334155" stroke-opacity="0.6" stroke-width="1.5"/>
+    <rect x="12" y="12" width="476" height="10" rx="5" fill="#1d2b4a"/>
+    <circle cx="24" cy="17" r="5" fill="#f87171"/>
+    <circle cx="40" cy="17" r="5" fill="#fbbf24"/>
+    <circle cx="56" cy="17" r="5" fill="#34d399"/>
+
+    <g font-family="'JetBrains Mono', monospace" font-size="15">
+      <rect x="20" y="40" width="200" height="340" rx="10" fill="#0d1526" stroke="#263449" stroke-width="1"/>
+      <text x="36" y="70" fill="#7c8db5">import pandas as pd</text>
+      <text x="36" y="96" fill="#c792ea" font-weight="700">def</text><text x="78" y="96" fill="#e6c07b">clean</text><text x="140" y="96" fill="#d7dce9">(df):</text>
+      <text x="48" y="122" fill="#d7dce9">df = df.</text><text x="120" y="122" fill="#82aaff">dropna</text><text x="172" y="122" fill="#d7dce9">()</text>
+      <text x="48" y="148" fill="#d7dce9">return df.</text><text x="132" y="148" fill="#82aaff">fillna</text><text x="178" y="148" fill="#d7dce9">(0)</text>
+      <text x="36" y="326" fill="#f87171"># 197 rows processed</text>
+      <circle cx="172" cy="322" r="7" fill="#22c55e" opacity="0.9"/>
+      <rect x="20" y="252" width="200" height="4" rx="2" fill="#8b5cf6" opacity="0.5"/>
+      <rect x="20" y="252" width="88" height="4" rx="2" fill="#f59e0b" opacity="0.7"/>
+      <text x="36" y="212" fill="#7c8db5">pivot   kpi   model</text>
+<g transform="translate(386 170)">
+    <rect width="252" height="118" rx="12" fill="#111c33" stroke="#2b3b59" stroke-width="1.2"/>
+    <text x="14" y="26" fill="#94a3b8" font-family="'Inter', sans-serif" font-size="11">REVENUE TREND</text>
+    <polyline points="14,94 44,82 74,88 104,64 134,72 164,44 194,50 224,28 242,34" fill="none" stroke="#14b8a6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 94 L44 82 L74 88 L104 64 L134 72 L164 44 L194 50 L224 28 L242 34 L242 118 L14 118 Z" fill="#14b8a6" opacity="0.16"/>
+    <text x="200" y="24" fill="#22c55e" font-family="'Inter', sans-serif" font-size="11" font-weight="700">+38%</text>
+  </g>
+
+  <g transform="translate(386 304)">
+    <rect width="252" height="68" rx="12" fill="#111c33" stroke="#2b3b59" stroke-width="1.2"/>
+    <circle cx="30" cy="34" r="14" fill="none" stroke="url(#ring)" stroke-width="3"/>
+    <circle cx="30" cy="34" r="4" fill="#f59e0b"/>
+    <text x="56" y="38" fill="#e2e8f0" font-family="'Inter', sans-serif" font-size="13" font-weight="600">ML inference</text>
+    <text x="56" y="58" fill="#5b6b84" font-family="'Inter', sans-serif" font-size="11">Computer Vision · FastAPI</text>
+    <circle cx="222" cy="34" r="6" fill="none" stroke="#22c55e" stroke-width="2"/>
+    <path d="M220 34 l4 4 l0 4 M216 34 l0 6" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <circle cx="690" cy="250" r="86" fill="none" stroke="url(#ring)" stroke-width="3" transform="rotate(-20 690 250)"/>
+  <circle cx="690" cy="250" r="120" fill="none" stroke="#8b5cf6" stroke-opacity="0.35" stroke-width="1.5" stroke-dasharray="10 14" transform="rotate(24 690 250)"/>
+
+  <g transform="translate(596 430)"><rect width="120" height="38" rx="12" fill="#161f3b" stroke="#f59e0b" stroke-opacity="0.8" stroke-width="1.5"/><text x="60" y="24" text-anchor="middle" fill="#f7b955" font-family="'Inter',sans-serif" font-size="13" font-weight="700">POWER BI</text><circle cx="16" cy="20" r="4" fill="#f59e0b"/></g>
+  <g transform="translate(104 480)"><rect width="118" height="38" rx="12" fill="#161f3b" stroke="#8b5cf6" stroke-opacity="0.85" stroke-width="1.5"/><text x="59" y="24" text-anchor="middle" fill="#c084fc" font-family="'Inter',sans-serif" font-size="13" font-weight="700">REACT.JS</text></g>
+  <g transform="translate(604 96)"><rect width="86" height="34" rx="10" fill="#161f3b" stroke="#8b5cf6" stroke-opacity="0.8" stroke-width="1.5"/><text x="43" y="22" text-anchor="middle" fill="#a78bfa" font-family="'Inter',sans-serif" font-size="12" font-weight="700">PYTHON</text></g>
+
+  <g transform="translate(100 588)">
+    <rect width="600" height="52" rx="14" fill="#0e1830" stroke="#223049" stroke-width="1.2"/>
+    <polyline points="0,38 40,30 80,36 120,24 160,30 200,16 240,26 280,12 320,20 360,10 400,18 440,8 480,16 520,6 560,14 596,4" fill="none" stroke="url(#pg)" stroke-width="3.5" stroke-linecap="round"/>
+    <circle cx="560" cy="9" r="5" fill="#f59e0b" filter="url(#glow)"/>
+  </g>
+
+  <g transform="translate(566 62)">
+    <rect width="170" height="40" rx="20" fill="#8b5cf6" opacity="0.16"/>
+    <rect width="170" height="40" rx="20" fill="none" stroke="#8b5cf6" stroke-opacity="0.7" stroke-width="1.4"/>
+    <text x="85" y="25" text-anchor="middle" fill="#c084fc" font-family="'Inter',sans-serif" font-size="13" font-weight="700">SUJAY VELAPURE</text>
+  </g>
+</svg>
+    </g>
+  </g>
+</svg>
